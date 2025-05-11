@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors Game</title>
+        <style>
+            .body{
+               background-color: rgb(214, 188, 192);
+               font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           
+            }
+
+            .heading-div{
+              height:50px;
+            background-color: rgb(174, 121, 170);
+            font-size: 40px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           
+            }     
+
+            .heading{
+            color:white;
+            margin-left: 420px;
+
+            }
+
+            .option-div{
+                margin-top: 80px;
+             height: 250px;
+             display: flex;
+             flex-direction: row;
+             background-color: 2px salmon;
+             align-items: center;
+             justify-content: center;
+             gap:60px;
+             object-fit: cover;
+            }
+            img{
+                height: 140px;
+                width:140px;
+                object-fit:cover;
+                border-radius: 50%;
+                border: 3px solid rgb(174, 121, 170) ;
+                
+            }
+            img:hover{
+                cursor: pointer;
+              border: 5px solid black;
+            }
+
+          
+            .score-div{
+                color: rgb(174, 121, 170);
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap:10px;
+                flex-direction: column;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            
+            
+            .para-div{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: rgb(174, 121, 170);
+                height: 180px;
+                margin-left:39%;
+               width:270px;
+                font-size: 21px;
+                margin-top: 10px;
+                border: 2px solid rgb(174, 121, 170);
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+                border-style: dashed;
+            }
+        </style>
+    </head>
+
+    <body>
+       <div class="heading-div"> <h class="heading">Rock Paper Scissors Game</h></div>
+
+        <div class="option-div">
+            <div class="rock-div">
+                <img src="rock.jpg">
+            </div>
+            <div class="paper-div">
+                <img src="paper.jpg">
+            </div>
+            <div class="scissors-div">
+                <img src="scissors.jpg">
+            </div>
+       
+        </div>
+        
+        <div class="score-div">
+            <div class="userScore-div">Your Score: 0</div>
+            <div class="compScore-div">Computer's Score: 0</div>
+        </div>
+
+        <div class="para-div">
+            <p class="para">Lets Begin The Game!</p>
+        </div>
+
+
+        <script src="game.js"></script>
+</html>

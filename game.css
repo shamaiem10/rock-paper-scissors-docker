@@ -1,0 +1,18 @@
+.body{
+    background-color: rgb(214, 188, 192);
+}
+
+.heading-div{
+    height:30px;
+    background-color: plum;
+}
+
+.heading{
+    color:white;
+
+}
+
+.option-div{
+    height: 20px;
+    width:20px;
+}
