@@ -1,0 +1,1 @@
+This project is part of the SDA Lab Task for Lab 13. The task involves creating a Docker image for a simple static website. In this case, it's a Rock-Paper-Scissors game built using HTML, CSS, and JavaScript, and deployed via Docker.
